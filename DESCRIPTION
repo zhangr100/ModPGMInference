@@ -1,0 +1,20 @@
+Package: ModPGMInference
+Type: Package
+Title: Statistical Inference of Modified Poisson-Type Graphical Models
+Version: 1.0.0
+Author: Rong Zhang
+Maintainer: Rong Zhang <roz16@pitt.edu>
+Description: Provides a novel method for both edge-wise and global statistical inference 
+    with FDR control based on three modified Poisson-type graphical models: the truncated
+    Poisson graphical model (TPGM), the sub-linear Poisson graphical model (SPGM) and the
+    square-root Poisson graphical model (SqrtPGM). We focus on the high-dimensional settings 
+    where dimension p is allowed to be far larger than sample size n and implement the method
+    using efficient proximal gradient descent. The method will be potentially useful in analysis
+    of large count-valued or discrete omics data (e.g. RNA-seq). Other functions in the package 
+    including sample generation and data preprocessing for count-valued data. Windows users 
+    should install 'Rtools' before the installation of this package.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.5), RcppProgress, stats
+LinkingTo: Rcpp, RcppProgress

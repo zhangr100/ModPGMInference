@@ -1,0 +1,49 @@
+Preprocess <- function(X, quanNorm = 0.75, nLowCount = 20, percentLowCount = 0.95,
+          NumGenes = 500, log_power_trans_only = FALSE)
+{
+  n = nrow(X)
+  p = ncol(X)
+
+  tG = min(NumGenes, p)
+
+  if(log_power_trans_only == FALSE){
+    dis = apply(X, 1, quantile, quanNorm)
+    qnum = mean(dis)
+    qX = X/(dis %o% rep(1, p)/qnum)
+    nums = apply(qX <= nLowCount, 2, sum)
+    indout = which(nums > (n * percentLowCount))
+    fX = qX
+    if (length(indout) > 0){
+    fX = qX[, -indout]
+    }
+    if (tG < ncol(fX)){
+      lX = log(fX + 1)
+      vars = apply(lX, 2, var)
+      or = order(vars, decreasing = TRUE)
+      ffX = fX[, or[1:tG]]
+    }else {
+      ffX = fX
+    }
+  }else{
+    lX = log(X + 1)
+    vars = apply(lX, 2, var)
+    or = order(vars, decreasing = TRUE)
+    ffX = X[, or[1:tG]]
+  }
+
+  kslog = suppressWarnings(ks.test(c(log(ffX + 1)), "ppois",
+                                   mean(log(ffX + 1)))$statistic)
+  ks = NULL
+  alphas = seq(0.2, 0.5, l = 30)
+  for (i in 1:length(alphas)) {
+    ks[i] = suppressWarnings(ks.test(c(ffX^alphas[i]), "ppois",
+                                     mean(ffX^alphas[i]))$statistic)
+  }
+  if(kslog < min(ks)){
+    Xout = log(ffX + 1)
+  } else{
+    alphaopt = alphas[which.min(ks)]
+    Xout = ffX^alphaopt
+  }
+  return(floor(Xout))
+}

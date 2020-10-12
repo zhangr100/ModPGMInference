@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "ks.test", "quantile", "var")
+useDynLib(ModPGMInference, .registration = TRUE)
