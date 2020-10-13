@@ -30,7 +30,7 @@ install_github("zhangr100/ModPGMInference")
 
 ## Functions
 
-There are 4 functions in this package:
+There are 4 main functions in this package:
 
 * `ModPGMInference`: Statistical Inference of Modified Poisson-Type Graphical Models.
 * `ModPGMSampler`: Sample Generator for the Modified Poisson-Type Graphical Models.
