@@ -29,7 +29,7 @@ A pre-specified \code{p}-length vector of upper-bound truncation levels for each
 }
 }
 \value{
-An \code{n} by \code{p} matrix which encodes true standard deviations from all node pairs.
+A \code{p} by \code{p} matrix which encodes true standard deviations from all node pairs.
 }
 \description{
 Returns true standard deviation of each \eqn{\theta_{ij}} for three modified Poisson-type graphical models if a true graph structure is known.
