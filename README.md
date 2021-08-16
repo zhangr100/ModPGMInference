@@ -91,12 +91,12 @@ X_process <- Preprocess(X = count_value)
 
 ## Author(s)
 
-Rong Zhang <roz16@pitt.edu>, Zhao Ren <zren@pitt.edu>, Juan C. Celed\'on <juan.celedon@chp.edu> and Wei Chen <wei.chen@chp.edu>
+Rong Zhang (<roz16@pitt.edu>), Zhao Ren (<zren@pitt.edu>), Juan C. Celed{\'}on (<juan.celedon@chp.edu>) and Wei Chen (<wei.chen@chp.edu>)
 
 ## Maintainer
 
-Rong Zhang <roz16@pitt.edu>
+Rong Zhang (<roz16@pitt.edu>)
 
 ## Reference
 
-Zhang, R., Ren, Z., Celed\'on, J. C. and Chen, W. (2021). Inference of large modified Poisson-type graphical models: Application to RNA-seq data in childhood atopic asthma studies. *The Annals of Statistics.* **15** 831-855. [Link](https://doi.org/10.1214/20-AOAS1413)
+Zhang, R., Ren, Z., Celed{\'o}n, J. C. and Chen, W. (2021). Inference of large modified Poisson-type graphical models: Application to RNA-seq data in childhood atopic asthma studies. *The Annals of Applied Statistics.* **15** 831-855. [Link](https://doi.org/10.1214/20-AOAS1413)
