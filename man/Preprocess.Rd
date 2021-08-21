@@ -34,6 +34,11 @@ The preprocessing steps for the raw count-valued data include: 1. Quantile norma
 \description{
 Performs preprocessing on raw count-valued data (e.g. RNA-seq).
 }
+
+\references{
+Zhang, R., Ren, Z., Celedon, J. C. and Chen, W. (2021). Inference of Large Modified Poisson-Type Graphical Models: Application to RNA-Seq Data in Childhood Atopic Asthma Studies. \emph{The Annals of Applied Statistics}, \bold{15}(2), 831-855. \cr
+}
+
 \examples{
 ## Chain graph
 set <- c(-0.4,-0.3,-0.2,-0.1,0.1,0.2,0.3,0.4)

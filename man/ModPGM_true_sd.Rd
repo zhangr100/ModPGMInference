@@ -34,6 +34,11 @@ A \code{p} by \code{p} matrix which encodes true standard deviations from all no
 \description{
 Returns true standard deviation of each \eqn{\theta_{ij}} for three modified Poisson-type graphical models if a true graph structure is known.
 }
+
+\references{
+Zhang, R., Ren, Z., Celedon, J. C. and Chen, W. (2021). Inference of Large Modified Poisson-Type Graphical Models: Application to RNA-Seq Data in Childhood Atopic Asthma Studies. \emph{The Annals of Applied Statistics}, \bold{15}(2), 831-855. \cr
+}
+
 \examples{
 ## Chain graph
 set <- c(-0.4,-0.3,-0.2,-0.1,0.1,0.2,0.3,0.4)

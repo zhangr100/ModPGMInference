@@ -105,6 +105,11 @@ If \code{regularization} is available, only sole estimation is performed. Two li
 The main function for both edge-wise statistical inference and multiple testing
 with FDR control of three modified Poisson-type graphical models.
 }
+
+\references{
+Zhang, R., Ren, Z., Celedon, J. C. and Chen, W. (2021). Inference of Large Modified Poisson-Type Graphical Models: Application to RNA-Seq Data in Childhood Atopic Asthma Studies. \emph{The Annals of Applied Statistics}, \bold{15}(2), 831-855. \cr
+}
+
 \examples{
 ## Chain graph
 set <- c(-0.4,-0.3,-0.2,-0.1,0.1,0.2,0.3,0.4)
