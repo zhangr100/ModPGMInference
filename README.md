@@ -97,6 +97,6 @@ Rong Zhang (<roz16@pitt.edu>), Zhao Ren (<zren@pitt.edu>), Juan C. Celed\'on (<j
 
 Rong Zhang (<roz16@pitt.edu>)
 
-## Reference
+## References
 
 Zhang, R., Ren, Z., Celed\'on, J. C. and Chen, W. (2021). Inference of Large Modified Poisson-Type Graphical Models: Application to RNA-Seq Data in Childhood Atopic Asthma Studies. *The Annals of Applied Statistics.* **15**(2): 831-855. [Link](https://doi.org/10.1214/20-AOAS1413)
