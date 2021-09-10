@@ -2,7 +2,7 @@ Package: ModPGMInference
 Type: Package
 Title: Statistical Inference of Modified Poisson-Type Graphical Models
 Version: 1.0.0
-Author: Rong Zhang
+Author: Rong Zhang, Zhao Ren, Juan C. Celedon and Wei Chen
 Maintainer: Rong Zhang <roz16@pitt.edu>
 Description: Provides a novel method for both edge-wise and global statistical inference 
     with FDR control based on three modified Poisson-type graphical models: the truncated
