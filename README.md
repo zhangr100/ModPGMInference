@@ -13,7 +13,7 @@ including sample generation and data preprocessing for count-valued data. Window
 should install 'Rtools' before the installation of this package.
 
 ## Installation
-Windows users should install [Rtools](https://cran.r-project.org/bin/windows/Rtools/) first. `ModPGMInference` can be installed into `R` environment using the following steps:
+Windows users should install [Rtools](https://cran.r-project.org/bin/windows/Rtools/) first. For Mac and Linux users, please follow the instructions in [Rcpp for everyone](https://teuder.github.io/rcpp4everyone_en/020_install.html) to install corresponding C++ compilers before the package installation. `ModPGMInference` can be installed into `R` environment using the following steps:
 
 * **Step 1: Install the `devtools` package**
 
