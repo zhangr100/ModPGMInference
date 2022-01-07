@@ -1,12 +1,4 @@
 # ModPGMInference
-
-<!-- badges: start -->
-
-[![R build status](https://github.com/zhangr100/ModPGMInference/workflows/R-CMD-check/badge.svg)](https://github.com/zhangr100/ModPGMInference/actions?workflow=R-CMD-check)
-[<img src="https://img.shields.io/codecov/c/github/zhangr100/ModPGMInference">](https://codecov.io/gh/zhangr100/ModPGMInference)
-
-<!-- badges: end -->
-
 Statistical Inference of Modified Poisson-Type Graphical Models
 
 ## Description
